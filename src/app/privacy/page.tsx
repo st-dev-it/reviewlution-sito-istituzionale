@@ -43,7 +43,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold text-foreground mt-6">6. Contattaci</h2>
               <p>
                 Se hai domande su questa Informativa sulla Privacy, puoi contattarci a:{" "}
-                <ObfuscatedEmail email="privacy@reviewlution.com" />.
+                <ObfuscatedEmail emailKey="privacy" />.
               </p>
             </div>
           </div>

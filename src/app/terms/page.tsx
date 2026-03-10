@@ -43,7 +43,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold text-foreground mt-6">6. Contattaci</h2>
               <p>
                 ReviewLution accoglie con favore le tue domande o commenti riguardo ai Termini:{" "}
-                <ObfuscatedEmail email="support@reviewlution.com" />.
+                <ObfuscatedEmail emailKey="support" />.
               </p>
             </div>
           </div>
