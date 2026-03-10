@@ -1,5 +1,6 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { ObfuscatedEmail } from "@/components/obfuscated-email";
 
 export default function PrivacyPage() {
   return (
@@ -41,7 +42,8 @@ export default function PrivacyPage() {
 
               <h2 className="text-2xl font-semibold text-foreground mt-6">6. Contattaci</h2>
               <p>
-                Se hai domande su questa Informativa sulla Privacy, puoi contattarci a: privacy@reviewlution.com.
+                Se hai domande su questa Informativa sulla Privacy, puoi contattarci a:{" "}
+                <ObfuscatedEmail email="privacy@reviewlution.com" />.
               </p>
             </div>
           </div>
