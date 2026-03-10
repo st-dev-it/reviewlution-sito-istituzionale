@@ -33,8 +33,8 @@ export function Header() {
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button className="hidden sm:inline-flex" variant="default">
-            Richiedi una Demo
+          <Button className="hidden sm:inline-flex" variant="default" asChild>
+            <a href="mailto:info@reviewlution.it">Richiedi una Demo</a>
           </Button>
           <Sheet>
             <SheetTrigger asChild>
@@ -55,7 +55,9 @@ export function Header() {
                   </Link>
                 ))}
               </nav>
-              <Button className="w-full mt-6">Richiedi una Demo</Button>
+              <Button className="w-full mt-6" asChild>
+                <a href="mailto:info@reviewlution.it">Richiedi una Demo</a>
+              </Button>
             </SheetContent>
           </Sheet>
         </div>
