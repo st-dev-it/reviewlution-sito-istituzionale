@@ -17,7 +17,9 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg">Richiedi una Demo</Button>
+              <Button size="lg" asChild>
+                <a href="mailto:info@reviewlution.it">Richiedi una Demo</a>
+              </Button>
               <Button size="lg" variant="outline">
                 Scopri di più
               </Button>
@@ -26,13 +28,13 @@ export function Hero() {
           <div className="relative hidden lg:block">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-purple-500 rounded-full blur-3xl opacity-20"></div>
             <div className="relative w-full h-full flex items-center justify-center">
-                <div className="w-72 h-72 bg-primary/10 rounded-full flex items-center justify-center p-4">
-                    <div className="w-60 h-60 bg-primary/20 rounded-full flex items-center justify-center p-4">
-                        <div className="w-48 h-48 bg-primary/30 rounded-full flex items-center justify-center p-4">
-                             <div className="w-36 h-36 bg-primary/40 rounded-full"></div>
-                        </div>
-                    </div>
+              <div className="w-72 h-72 bg-primary/10 rounded-full flex items-center justify-center p-4">
+                <div className="w-60 h-60 bg-primary/20 rounded-full flex items-center justify-center p-4">
+                  <div className="w-48 h-48 bg-primary/30 rounded-full flex items-center justify-center p-4">
+                    <div className="w-36 h-36 bg-primary/40 rounded-full"></div>
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
