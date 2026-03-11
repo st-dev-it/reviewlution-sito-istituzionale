@@ -20,8 +20,8 @@ export function Hero() {
               <Button size="lg" asChild>
                 <a href="mailto:info@reviewlution.it">Richiedi una Demo</a>
               </Button>
-              <Button size="lg" variant="outline">
-                Scopri di più
+              <Button size="lg" variant="outline" asChild>
+                <a href="#features">Scopri di più</a>
               </Button>
             </div>
           </div>
